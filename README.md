@@ -1,7 +1,7 @@
 
-Generalized Origin-Destination-Time Flow Patterns
+Multi-granularity Origin-Destination-Time Flow Patterns
 
-Chrysanthi Kosyfaki, The University of Hong Kong 
+Chrysanthi Kosyfaki, Hong Kong University of Science and Technology @CSE Department
 
 Instructions for compiling and running the code
 1. To use the code, we will need two files: - a trips table and a neighborhood graph: 
