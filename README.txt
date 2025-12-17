@@ -38,3 +38,13 @@ The neighborhood graph has the following format:
        
         Example: python3 findpatterns-restricted.py adj_taxi.txt taxi-trips.txt 0.1 0.3 10000 manhattan-query.txt
 
+- To run the approximate solution, we use the following command:
+    python3 approximate.py <neighborhood_graph> <trips_table> <support for atomic patterns> <support for extended patterns> <S_O> <S_D> <S_T> <M>
+
+      Example: python3 approximate.py adj_taxi.txt taxi-trips.txt 0.015 0.5 4 4 4 10000
+
+- To run the approximate_weighted solution, we use the following command:
+    python3 approximate-weighted <neighborhood_graph> <trips_table> <support for atomic patterns> <support for extended patterns> <S_O> <S_D> <S_T> <N> <M>
+
+    Example: python3 approximate.py adj_taxi.txt taxi-trips.txt 0.015 0.5 4 4 4 10000 100000
+
